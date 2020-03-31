@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{c['name']}}</title>
+	<!--<link rel="stylesheet" type="text/css" href="static/country.css">-->
+	<!--<style type="text/css">
+		body{
+			font-family: arial;
+		}
+		img{
+			width:50%;
+		}
+	</style>-->
+	<link rel="stylesheet" href='../static/country.css'>
+</head>
+<body>
+	<h1>Country {{c['name']}}</h1>
+	<div>Continent: {{c['continent']}}</div>
+	<div>Population: {{c['population']}}</div>
+	<div>GDP: ${{c['gdp']}}</div>
+	<div><img src="{{c['flag']}}"></div>
+</body>
+</html>
